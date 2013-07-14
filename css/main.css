@@ -58,7 +58,7 @@ body {
 	line-height: 1.5;
 	color: #eee;
 	font-size: 20px;
-	font-family: Arial,sans-serif;
+	font-family: Open Sans, Helvetica, Arial,sans-serif;
 }
 
 h1 {
@@ -131,7 +131,6 @@ p {
 		#content h1 {
 				margin: 0 0 25px 0;
 				font-size: 50px;
-				font-family: Helvetica, serif;
 				color: #eee;
 				font-weight: normal;
 				line-height: 65px;
@@ -183,8 +182,8 @@ p {
 }
 
 #parallax-bg2 {
-	z-index: 5;
-	position: fixed;
+	z-index: 6;
+	position: relative;
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
 	width: 940px;
@@ -193,5 +192,5 @@ p {
 	#bg2-1 {
 		position: absolute;
 		top: -108px;
-		left: 505px;
+		left: 530px;
 		}
