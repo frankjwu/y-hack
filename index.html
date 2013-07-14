@@ -15,7 +15,7 @@
 		<script src="js/modernizr.custom.37797.js"></script> 
 		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
 		<script src="js/main.js"></script>
 		<script>
@@ -32,25 +32,29 @@
 	<body>
 
 		<div id="wrapper">
-			
 			<header id="branding">
-				<div class="title">{Y-Hack} ~$<div class="cursor">|</div></div>
+				<div class="title"><a href="/">{Y-Hack} ~$<div class="cursor">|</div></a></div>
 			</header>
+		</div>
 			
-			<div id="content">
-				<article id="about-us">
-					<h1>Why hack at Y-Hack?</h1>
-					<p>We're reinventing computer science, engineering, and hacking at Yale University. And we want you to join us.</p>
-					<h2>Friday November 8, 2013 @ Yale CEID</h2>
-					<p>Open to students from all colleges: we'll even reimburse your travel expenses if you demo something!</p>
-				  <h2><a href="http://y-hack.eventbrite.com">Register now!</a></h2>
-				</article>
+		<div class="content" id="top">
+			<div id="about-us">
+				<h1>Why hack at Y-Hack?</h1>
+				<p>We're reinventing computer science, engineering, and hacking at Yale University. And we want you to join us.</p>
+				<h2>Friday November 8, 2013 @ Yale CEID</h2>
+				<p>Open to students from all colleges: we'll even reimburse your travel expenses if you demo something!</p>
+			  <div id="buttons">
+			  	<a id="signup" href="http://y-hack.eventbrite.com">Register</a>
+			  	<a href="about.html">Learn more</a>
+			  	<a href="img/Y-Hack_Sponsorship.pdf">Sponsor us</a></div>
 			</div>
-			<div id="parallax-bg2">
-				<img id="bg2-1" src="img/big-y.png" width="529" height="757"/>
-			</div>
+		</div>
+		<div id="logo">
+			<img id="big-y" src="img/big-y.png" width="529" height="757"/>
+		</div>
 
-			<div id="sponsors">
+		<div id="wrapper">
+			<div class="sponsors">
 					<img src="img/Microsoft.png" style="height: 300px;">
 					<img src="img/Intel.png" style="height: 300px;"><br />
 					<img src="img/Qualcomm.jpg" style="height: 300px;"><br />
@@ -73,12 +77,10 @@
 					<img src="img/Yodle.png" style="height: 120px;">
 			</div>
 
-			<div id="content">
-				<div id="action">
-					<h1>We're giving away thousands of dollars in prizes and swag.</h1>
-					<a id="link" href="http://y-hack.eventbrite.com/">Register now!</a><br />
-					<a id="questions" href="mailto:">Questions? Comments? Email us.</a>
-				</div>
+			<div class="content" id="bottom">
+				<h1>We're giving away thousands of dollars in prizes and swag.</h1>
+				<a id="link" href="http://y-hack.eventbrite.com/">Register now!</a><br />
+				<a id="questions" href="mailto:yhack2013@gmail.com">Questions? Comments? Email us.</a>
 			</div>
 			
 			<!-- Parallax foreground -->

@@ -47,22 +47,13 @@ table {
 /* ********************* */
 /* Site Styles */
 
-html { 
-	overflow-y: scroll; /* always force a scrollbar in non-IE */
-}
-
 body {
 	background: #0F4D92;
 	overflow-x: hidden;
-	height: 3200px;
 	line-height: 1.5;
 	color: #eee;
 	font-size: 20px;
 	font-family: Open Sans, Helvetica, Arial,sans-serif;
-}
-
-h1 {
-	color: #21a97e;
 }
 
 a, a:link,
@@ -75,24 +66,25 @@ a:visited {
 	color:#82B600;
 	outline: none;
 	text-decoration:none;
-	}
+}
 a:hover { 
-	color:white;
+	color: white;
 }
 
 p {
-	margin:1em 0;
+	margin: 1em 0;
 }
 
 #wrapper {
 	position: relative;
 }
+
 #branding {
 	position: fixed;
 	z-index: 4;
 	width: 100%;
 	background: #282828;
-	}
+}
 	#branding .title {
 		width: 940px;
 		padding: 10px 10px;
@@ -102,69 +94,100 @@ p {
 		font-size: 40px;
 		font-weight: 500;
 		color: #82B600;
-		}
+	}
 	#branding .cursor {
 		margin-bottom: 2px;
 		display: inline;
 		font-size: 40px;
 	}
 
-#content {
+.content {
 	z-index: 3;
 	position: relative;
 	max-width: 940px;
 	padding: 0 10px;
 	margin: 0 auto;
 	line-height: 1.7;
+}
+
+#top {
+	height: 600px;
 	}
-	#content article {
-		width: 550px;
-		}
-		#about-us,
-		#sponsors {
-			padding-top: 110px;
-			}
-		#about-us {
-			position: absolute;
-			top: 30px;
-			}
-		#content h1 {
-				margin: 0 0 25px 0;
-				font-size: 50px;
-				color: #eee;
-				font-weight: normal;
-				line-height: 65px;
-				}
-		#content h2 {
-			font-size: 30px;
-		}
-		#sponsors {
-			background-color: white;
-			position: relative;
-			top: 600px;
-			width: 100%;
-			font-size: 80px;
-			text-align: center;
-			padding-bottom: 100px;
-		}
+#about-us {
+	position: absolute;
+	padding-top: 140px;
+	width: 550px;
+}
+	#about-us h1 {
+		font-size: 50px;
+		color: #eee;
+		font-weight: 800;
+		line-height: 65px;
+	}
+	#buttons {
+		margin-top: 40px;
+	}
+	#about-us #buttons a {
+		color: #eee;
+		background-color: #469500;
+		padding: 15px;
+		margin-right: 20px;
+		border-radius: 4px;
+    	-moz-border-radius: 4px;
+    	-webkit-border-radius: 4px;
+    	border-bottom: rgba(0,0,0,0.1) 3px solid;
+	}
+	#about-us #buttons a#signup {
+		background-color: #950046
+	}
+	#about-us #buttons a:hover {
+		background-color: #52af00;
+	}
+	#about-us #buttons a#signup:hover {
+		background-color: #c8005e;
+	}
 
-		#sponsors img {
-			display: inline-block;
-		}
+#logo {
+	z-index: 6;
+	position: relative;
+	left: 50%; /* align left edge with center of viewport */
+	top: 0;
+	width: 940px;
+	margin-left: -470px; /* move left by half element's width */
+}
+	#big-y {
+		position: absolute;
+		top: -708px;
+		left: 500px;
+	}
 
-		#action {
-			z-index: 3;
-			position: absolute;
-			top: 880px;
-			font-size: 30px;
-			text-align: center;
-		}
-		#link {
-			font-size: 90px;
-		}
-		#questions {
-			font-size: 40px;
-		}
+.sponsors {
+	padding: 110px 0;
+	background-color: white;
+	position: relative;
+	width: 100%;
+	height: 1600px;
+	font-size: 80px;
+	text-align: center;
+}
+	.sponsors img {
+		display: inline-block;
+	}
+
+#bottom {
+	padding-top: 300px;
+	height: 590px;
+	text-align: center;
+}
+	#bottom h1 {
+		font-size: 50px;
+	}
+	#bottom #link {
+		font-size: 90px;
+	}
+	#bottom #questions {
+		font-size: 40px;
+	}
 
 #parallax-bg1 {
 	z-index: 3;
@@ -181,16 +204,33 @@ p {
 	background-color: #282828;
 }
 
-#parallax-bg2 {
-	z-index: 6;
-	position: relative;
-	left: 50%; /* align left edge with center of viewport */
-	top: 0;
-	width: 940px;
-	margin-left: -470px; /* move left by half element's width */
+/* *************** */
+/* About Page */
+
+#hero {
+	padding-top: 110px;
+	width: 100%;
+	background: url("file://localhost/Users/frankjwu/code/y-hack/img/CEID.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 460px;
+}
+	.blast {
+		background-color: #0d0d0d;
+		text-align: center;	
+		font-size: 30px;
+		line-height: 1.4em;
+		padding: 5px;
 	}
-	#bg2-1 {
-		position: absolute;
-		top: -108px;
-		left: 530px;
-		}
+	#final {
+		font-size: 60px;
+	}
+
+#info {
+	padding-top: 50px;
+	color: #0d0d0d;
+	height: 500px;
+	background-color: #fff;
+}
