@@ -184,11 +184,12 @@ p {
 	height: 400px;
 	text-align: center;
 }
-	#final {
+	#actions {
 		padding-top: 100px;
 	}
 	#bottom h1 {
 		font-size: 50px;
+		margin-bottom: 20px;
 	}
 	#bottom a {
 		padding-top: 700px;
@@ -239,7 +240,7 @@ p {
 		text-align: center;	
 		font-size: 30px;
 		line-height: 1.4em;
-		padding: 5px;
+		padding: 5px 10px;
 	}
 	#final {
 		font-size: 60px;
