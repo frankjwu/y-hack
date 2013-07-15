@@ -175,19 +175,35 @@ p {
 	}
 
 #bottom {
-	background-color: #0F4D92;
-	padding-top: 300px;
-	height: 570px;
+	background: url("/img/Yalebg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 400px;
+	height: 400px;
 	text-align: center;
 }
+	#final {
+		padding-top: 100px;
+	}
 	#bottom h1 {
 		font-size: 50px;
 	}
-	#bottom #link {
-		font-size: 90px;
+	#bottom a {
+		padding-top: 700px;
+		background-color: #950046;
+		color: #eee;
+		font-size: 30px;
+		padding: 15px;
+		margin-right: 20px;
+		border-radius: 4px;
+    	-moz-border-radius: 4px;
+    	-webkit-border-radius: 4px;
+    	border-bottom: rgba(0,0,0,0.1) 5px solid;
 	}
-	#bottom #questions {
-		font-size: 40px;
+	#bottom a:hover {
+		background-color: #c8005e;
 	}
 
 #parallax-bg1 {

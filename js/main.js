@@ -1,15 +1,14 @@
 $(document).ready(function() {
 
   $(window).bind('scroll',function(e){
-  	parallaxScroll();
+  	scrollChanges();
   });
 
   setInterval("blinkCursor()", 0);
 });
 
-function parallaxScroll(){
+function scrollChanges(){
 	var scrolled = $(window).scrollTop();
-	//$('#parallax-bg2').css('top',(0-(scrolled*.75))+'px');
 	if (scrolled > 1750)
 		$('#parallax-bg1').css('display', 'none');
 	else
