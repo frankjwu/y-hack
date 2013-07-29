@@ -227,6 +227,29 @@ p {
 	display: none;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* Phone Styles */
+	#top {
+		height: 900px;
+	}
+		#about-us {
+			width: 90%;
+			font-size: 19px;
+		}
+		#about-us #buttons a {
+			width: 120px;
+		}
+	.sponsors {
+		padding-top: 50px;
+	}
+		.sponsors img {
+			display: inline-block;
+			max-height: 150px;
+			max-width: 280px;
+			margin: 0 auto;
+		}
+}
+
 /* *************** */
 /* About Page */
 
