@@ -180,7 +180,7 @@ p {
 }
 	.sponsors img {
 		display: inline-block;
-		max-height: 230px;
+		height: auto;
 		max-width: 450px;
 	}
 
@@ -244,7 +244,7 @@ p {
 	}
 		.sponsors img {
 			display: inline-block;
-			max-height: 150px;
+			height: auto;
 			max-width: 280px;
 			margin: 0 auto;
 		}
