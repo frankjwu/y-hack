@@ -170,6 +170,10 @@ p {
 		left: 600px;
 	}
 
+.banner {
+	display: none;
+}
+
 .sponsors {
 	background-color: #fff;
 	padding: 80px 0;
@@ -216,16 +220,6 @@ p {
 	#bottom a:hover {
 		background-color: #c8005e;
 	}
-
-#parallax-bg1 {
-	z-index: 3;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	}
-#banner  {
-	display: none;
-}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	/* Phone Styles */

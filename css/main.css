@@ -158,9 +158,18 @@ p {
 }
 	#big-y {
 		position: absolute;
-		top: -728px;
-		left: 500px;
+		width: 600px;
+		height: auto;
+		top: -753px;
+		left: 470px;
 	}
+
+.banner  {
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	background-color: #282828;
+}
 
 .sponsors {
 	background-color: #fff;
@@ -172,7 +181,38 @@ p {
 }
 	.sponsors img {
 		display: inline-block;
+		vertical-align: middle;
 	}
+
+	.sponsor-row {
+		display: block;
+		width: 960px;
+		margin: 0 auto;
+	}
+	.sponsor-row div {
+		text-align: center;
+		height: 150px;
+		display: inline-block;
+	}
+	.size1 {
+		width: 469px;
+	}
+		.size1 img {
+			max-width: 469px;
+		}
+	.size2 {
+		width: 305px;
+	}
+		.size2 img {
+			max-width: 305px;
+		}
+	.size3 {
+		width: 222px;
+	}
+		.size3 img {
+			max-width: 222px;
+			max-height: 150px;
+		}
 
 #bottom {
 	background: url("/img/Yalebg.jpg") no-repeat center center fixed;
@@ -206,21 +246,6 @@ p {
 	#bottom a:hover {
 		background-color: #c8005e;
 	}
-
-#parallax-bg1 {
-	z-index: 3;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	}
-#banner  {
-	position: relative;
-	top: 550px;
-	font-size: 50px;
-	text-align: center;
-	width: 100%;
-	background-color: #282828;
-}
 
 /* *************** */
 /* About Page */

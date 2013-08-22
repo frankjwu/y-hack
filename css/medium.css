@@ -164,6 +164,9 @@ p {
 		left: 600px;
 	}
 
+.banner {
+	display: none;
+}
 .sponsors {
 	background-color: #fff;
 	padding: 110px 0;
@@ -174,6 +177,8 @@ p {
 }
 	.sponsors img {
 		display: inline-block;
+		max-width: 780px;
+		max-height: 150px;
 	}
 
 #bottom {
@@ -208,16 +213,6 @@ p {
 	#bottom a:hover {
 		background-color: #c8005e;
 	}
-
-#parallax-bg1 {
-	z-index: 3;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	}
-#banner  {
-	display: none;
-}
 
 /* *************** */
 /* About Page */
