@@ -223,6 +223,11 @@ p {
 	padding-top: 400px;
 	height: 400px;
 	text-align: center;
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-o-transition: all 2s ease-out;
+	-ms-transition: all 2s ease-out;
+	transition: all 2s ease-out;
 }
 	#actions {
 		padding-top: 100px;
@@ -261,7 +266,7 @@ p {
 	height: 460px;
 }
 	.blast {
-		background-color: #0d0d0d;
+		background-color: #282828;
 		text-align: center;	
 		font-size: 30px;
 		line-height: 1.4em;
