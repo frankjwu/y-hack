@@ -126,7 +126,7 @@ hr {
   /*background-color: #0F4D92;*/
 	height: 800px;
 	padding-top: 25px;
-	background: url("file://localhost/Users/frankjwu/code/y-hack/img/test.jpg") no-repeat left top fixed;
+	background: url("/img/test.jpg") no-repeat left top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -271,7 +271,7 @@ hr {
     }
 
 #bottom {
-	background: url("file://localhost/Users/frankjwu/code/y-hack/img/YaleBG2.jpg") no-repeat center center fixed;
+	background: url("/img/YaleBG2.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -310,7 +310,7 @@ hr {
 #hero-about {
 	padding-top: 110px;
 	width: 100%;
-	background: url("file://localhost/Users/frankjwu/code/y-hack/img/CEID.png") no-repeat center center fixed;
+	background: url("/img/CEID.png") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -371,7 +371,7 @@ body#about {
 /* Register Page */
 
 #register {
-	background: url("file://localhost/Users/frankjwu/code/y-hack/img/register_bg.jpg") no-repeat center center fixed;
+	background: url("/img/register_bg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
