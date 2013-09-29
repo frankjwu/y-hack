@@ -277,11 +277,11 @@ hr {
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 300px;
-	height: 400px;
+	height: 600px;
 	text-align: center;
 }
 	#actions {
-		padding-top: 100px;
+		padding-top: 300px;
 	}
 	#bottom h1 {
 		font-size: 50px;
