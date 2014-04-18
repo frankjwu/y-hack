@@ -23,10 +23,10 @@
       <img src="img/YHACK.png" />
       <form target="_self" onsubmit="" action="javascript: postToGoogle()">
         <div class="line">
-          <input id="name" type="text" placeholder="Name" autofocus />
+          <input id="name" type="text" placeholder="Name" autocomplete="off" autofocus />
         </div>
         <div class="line">
-          <input id="email" type="email" placeholder="Email" />
+          <input id="email" type="email" placeholder="Email" autocomplete="off" />
         </div>
         <div class="line">
           <button>Submit</button>
@@ -40,8 +40,8 @@
             var email = $('#email').val();
             if ((name !== "") && (email !== "")) {
               $.ajax({
-                  url: "https://docs.google.com/a/frankjwu.com/forms/d/1E_irXxrmLwwsq2lrrDo3j_CI0ZN4x8TU6W54pn61zv0/formResponse",
-                  data: { "entry.1720784612" : name, "entry.2036663087" : email },
+                  url: "https://docs.google.com/a/yhack.org/forms/d/1uEvi_KN8SWp_OdVxxZcrxNRx5Gt4NlWs9bMUgPZFg4A/formResponse",
+                  data: { "entry.1029757417" : name, "entry.1313521578" : email },
                   type: "POST",
                   dataType: "xml",
                   statusCode: {
